@@ -1,5 +1,5 @@
 import React from 'react'
-import MyProps from '../components/myProps'
+import MyProps from '../components/MyProps'
 import ClickEvent from '../components/ClickEvent';
 import OnChange from '../components/OnChange';
 
