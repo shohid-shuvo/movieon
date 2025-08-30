@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+* {
+  @apply box-border;
+}
+body {
+  @apply bg-white text-gray-900 p-0 m-0;
+}
+
+h2{
+  @apply text-3xl font-bold mb-4;
+}
+
+button {
+  @apply cursor-pointer ;
+}
+/* sdl_section odd even wise bg color change  */
+.sdl_section:nth-child(odd) {
+  @apply bg-gray-100 p-6;
+}
+
+.sdl_section:nth-child(even) {
+  @apply bg-white p-6;
+}
+
+/* input{
+  @apply shadow appearance-none border-solid border-1 border-gray-800 rounded w-full text-gray-700 leading-tight  ;
+} */
+
